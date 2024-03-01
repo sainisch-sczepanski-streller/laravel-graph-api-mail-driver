@@ -1,0 +1,1 @@
+Send Emails via Microsoft Graph API from your Laravel Project.

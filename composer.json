@@ -1,0 +1,17 @@
+{
+    "name": "sainisch-sczepanski-streller/laravel-graph-api-mail-driver",
+    "autoload": {
+        "psr-4": {
+            "LaravelGraphApiMailDriver\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelGraphApiMailDriver\\GraphApiMailServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
