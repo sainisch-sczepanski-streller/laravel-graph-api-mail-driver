@@ -1,5 +1,26 @@
 {
     "name": "sainisch-sczepanski-streller/laravel-graph-api-mail-driver",
+    "description": "Send Emails via Microsoft Graph API from your Laravel 10 Project.",
+    "license": "MIT",
+    "keywords": [
+        "framework",
+        "laravel",
+        "email",
+        "microsoft",
+        "graph"
+    ],
+    "authors": [
+        {
+            "name": "Steven Streller"
+        },
+        {
+            "name": "Adrian Sczepanski"
+        },
+        {
+            "name": "Hanno Sainisch"
+        }
+    ],
+    "homepage": "https://github.com/sainisch-sczepanski-streller/laravel-graph-api-mail-driver",
     "autoload": {
         "psr-4": {
             "LaravelGraphApiMailDriver\\": "src/"
