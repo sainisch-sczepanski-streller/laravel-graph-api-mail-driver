@@ -21,7 +21,7 @@ MAIL_MAILER=microsoft-graph-api
 MAIL_MS_GRAPH_CLIENT_ID=<your client id>
 MAIL_MS_GRAPH_CLIENT_SECRET=<your client secret>
 MAIL_MS_GRAPH_TENANT_ID=<your tenant id>
-MAIL_MS_GRAPH_SAVE_TO_SEND_ITEMS=<bool>
+MAIL_MS_GRAPH_SAVE_TO_SENT_ITEMS=<bool>
 ```
 #### config/mail.php
 ```php
