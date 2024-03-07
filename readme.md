@@ -12,10 +12,11 @@ For further info see:
 ## Getting started
 ### install
 ```php
-composer install sainisch-sczepanski-streller/laravel-graph-api-mail-driver
+composer require sainisch-sczepanski-streller/laravel-graph-api-mail-driver
 ```
 #### .env
 ```php
+MAIL_FROM_ADDRESS=<your sender address>
 MAIL_MAILER=microsoft-graph-api
 MAIL_MS_GRAPH_CLIENT_ID=<your client id>
 MAIL_MS_GRAPH_CLIENT_SECRET=<your client secret>
@@ -42,7 +43,7 @@ Use it like any other Laravel mail driver
 ```
 
 ## Compatibility
-Build and tested in Laravel 10
+Built and tested in Laravel 10
 
 ## Contributors
 - [Steven Streller](https://github.com/StevenStreller)
